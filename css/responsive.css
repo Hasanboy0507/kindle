@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 100%;
+  }
+  .header .navbarnav a {
+    display: none;
+  }
+  .header .banner__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .header .banner__content .item h1 {
+    font-size: 2rem;
+  }
+  .header .banner__content .item p {
+    width: 60%;
+  }
+  .number .number__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .book .book__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .about .about__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .our .our__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .title iframe {
+    margin-top: 4rem;
+    width: 100%;
+  }
+}/*# sourceMappingURL=responsive.css.map */
